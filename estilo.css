@@ -1,0 +1,93 @@
+* {
+  margin: 0px;
+  padding: 4px;
+  /*overflow: hidden;*/
+
+}
+h1 {
+  font: bold 20px verdana, sans-serif;
+}
+h2 {
+  font: bold 14px verdana, sans-serif;
+}
+
+#cabecera{
+	background-color: #E8F57B; /*Color de fondo*/
+	border: 2px solid #B3AEAE; /*borde y color*/
+	padding: 17px; /* x defecto (margen interno)*/
+	/*border-bottom:10px solid #B3AEAE; /*borde inferior y color*/
+}
+
+#agrupar {
+	border: 2px solid #252323; /*borde y color*/
+    padding: 11px; /* x defecto (margen interno)*/
+}
+
+/*encontrar una etiqueta li q esta en menu  */
+#menu li{
+    display: inline-block;/*para que aparesca en fila y no en columna como sale x defecto*/
+	padding: 5px; /*espacio entre las listas*/
+}
+
+#menu{
+	background-color: #B3AEAE; /*Color de fondo*/
+	padding: 0.5px; /* x defecto (margen interno)*/
+	font-size: 19px; 
+	font-weight: bold;  /*negriar texto*/
+}
+
+#seccion{
+
+	font-size: 19px; 
+	width: 830px;
+	height: 20px;
+	margin: 5px;
+	padding: 5px;
+	background-color: #857E7E; /*Color de fondo*/
+	float:left;  /*que flote la columna una al lado de otra*/
+	margin-left: 30px;*/ /*margen x un lado izq*/
+
+}
+
+#seccion{
+	margin-top: 20px;*/  /*margen arriba*/
+}
+#seccion{
+	/*margin-right: 600px;*/  /*margen derecha*/
+}
+#seccion{
+	/*margin-bottom: 20px;*/  /*margen abajo*/
+}
+
+
+
+#columna{
+    
+	background-color: #B3AEAE; /*Color de fondo*/
+	margin-left: 900px;*/ /*margen x un lado izq*/
+}
+
+#columna{
+	margin-right: 20px;*/  /*margen derecha*/
+}
+#columna{
+	margin-top: 20px;*/  /*margen arriba*/
+}
+
+#columna{
+	/*margin-top: 40px;*/  /*margen arriba*/
+	border-top:40px solid #B3AEAE; /*borde arriba y color*/
+	/*padding: 10px; /*espacio entre las listas*/
+}
+
+
+
+
+#pie{
+	font-size: 19px; 
+	background-color: #857E7E; /*Color de fondo*/
+	padding: 21px; /* x defecto (margen interno)*/
+	text-align: center;/*centrar el texto*/
+	margin-top: 20px;*/  /*margen arriba*/
+
+}
